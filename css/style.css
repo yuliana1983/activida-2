@@ -1,0 +1,14 @@
+/* declarar las constantes de colores y fuentes */
+:root{
+/* fuentes */
+--titulos:'Lato', sans-serif;
+--parrafos:'Roboto', sans-serif;
+/* colores */
+--encabezado:rgb(207, 72, 72);
+--piepagina:#000;
+--enlace:#fff; 
+--enlacesobre:#dd8117;
+--fondo:url("../images/background.jpg");
+
+
+}
