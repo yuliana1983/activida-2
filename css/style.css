@@ -71,7 +71,7 @@ header nav a:hover{
     margin-bottom: 45px;
     font-weight: 700;
     font-size: 3.5rem;
-    color: var(--enlace);
+    color: #000;
 }
 
 .container{
@@ -116,8 +116,48 @@ section h2{
 #categoria .box{
     width: 33%;
     display: inline-block;
-    
-
+    padding: 8px;
+}
+#categoria .box img{
+   width: 100%;
+}    
+#categoria .box p{
+    text-align: justify;
+}
+#categoria .box h3{
+    text-align: center;
+}
+/* contacto */
+#contacto{
+    background-image: url(/images/map-image.png);
+    background-color: rgba(0, 0, 0, 0.712);
+    background-size: cover;
+    width: 100%;
+    text-align: center;
+    margin: 0 auto;
+}
+#contacto h2{
+    color: #fff;
+}
+#contacto input, select, textarea{
+width: 600px;
+padding: 10px 5px;
+border-radius: 5px;
+font-size: 18px;
 }
 
+iframe{
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+/* footer o pie de pag */
+footer{
+    width: 100%;
+    text-align: center;
+    color: #fff;
+    padding: 20px 0;
+    background-color: var(--piepagina);
+
+}
 
